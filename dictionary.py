@@ -87,3 +87,27 @@ thisdict.clear()
 # Another way to make a copy is to use the built-in function dict()
 thisdict = dict(newdict)
 print(thisdict)
+
+
+# A dictionary can also contain many dictionaries, this is called nested dictionaries.
+
+family = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+
+# It is also possible to use the dict() constructor to make a new dictionary:
+
+mydict = dict(name='dipendra',lastname='saini',sex="Male")
+print(mydict)
